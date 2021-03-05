@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Addnewdetails">
+
+    <TextView
+        android:id="@+id/Wright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wright what you love!!!"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:hint="Subject Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:hint="Details......."
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/purple"
+        android:text="Done" />
+
+</LinearLayout>
